@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.bugstack.gateway.center.infrastructure.dao.IApplicationInterfaceMethodDao">
+
+    <resultMap id="ApplicationInterfaceMethodMap" type="cn.bugstack.gateway.center.infrastructure.po.ApplicationInterfaceMethod">
+        <id column="id" property="id"/>
+        <id column="systemId" property="system_id"/>
+        <id column="interfaceId" property="interface_id"/>
+        <id column="methodId" property="method_id"/>
+        <id column="methodName" property="method_name"/>
+        <id column="parameterType" property="parameter_type"/>
+        <id column="uri" property="uri"/>
+        <id column="httpCommandType" property="http_command_type"/>
+        <id column="auth" property="auth"/>
+        <id column="createTime" property="create_time"/>
+        <id column="updateTime" property="update_time"/>
+    </resultMap>
+
+</mapper>
