@@ -2,16 +2,12 @@ package cn.bugstack.gateway.center.infrastructure.po;
 
 import java.util.Date;
 
-/**
- * @author 小傅哥，微信：fustack
- * @description 网关服务明细
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
- */
 public class GatewayServerDetail {
 
     /** 自增ID */
     private Integer id;
+    /** 分组标识 */
+    private String groupId;
     /** 网关标识 */
     private String gatewayId;
     /** 网关名称 */
@@ -31,6 +27,14 @@ public class GatewayServerDetail {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public String getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(String groupId) {
+        this.groupId = groupId;
     }
 
     public String getGatewayId() {

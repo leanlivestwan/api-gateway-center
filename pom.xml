@@ -7,11 +7,20 @@
     <groupId>cn.bugstack.gateway</groupId>
     <artifactId>api-gateway-center</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>api-gateway-center-01</module>
+        <module>api-gateway-center-02</module>
+        <module>api-gateway-center-03</module>
+        <module>api-gateway-center-04</module>
+        <module>api-gateway-center-05</module>
+        <module>api-gateway-center-06</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
 </project>

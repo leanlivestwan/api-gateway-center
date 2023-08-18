@@ -18,10 +18,7 @@ import javax.annotation.Resource;
 import java.util.List;
 
 /**
- * @author 小傅哥，微信：fustack
  * @description 单元测试
- * @github https://github.com/fuzhengwei
- * @Copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -62,7 +59,7 @@ public class ApiTest {
     public void test_registerApplicationInterface() {
         ApplicationInterfaceVO applicationInterfaceVO = new ApplicationInterfaceVO();
         applicationInterfaceVO.setSystemId("api-gateway-test");
-        applicationInterfaceVO.setInterfaceId("cn.bugstack.gateway.rpc.IActivityBooth");
+        applicationInterfaceVO.setInterfaceId("cn.bugstack.gateway.rpc.IActivityBooth1");
         applicationInterfaceVO.setInterfaceName("活动平台");
         applicationInterfaceVO.setInterfaceVersion("v1.0.0");
         registerManageService.registerApplicationInterface(applicationInterfaceVO);
